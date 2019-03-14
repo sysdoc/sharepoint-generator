@@ -1,4 +1,4 @@
-const { createTransformer } = require('sharepoint-util/lib/provisioning/provisioning');
+const { createTransformer } = require('@sysdoc/sp-provisioning-util/lib/provisioning/provisioning');
 const addField = require('./addfield');
 const addContentType = require('./addcontenttype'); 
 const addList = require('./addlist');

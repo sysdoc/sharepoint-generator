@@ -18,7 +18,7 @@ function loadSiteDefinition(generator){
         if (siteDefinitionExists) {
             siteDefinition = generator.siteDefinition = require(generator.destinationPath('SiteDefinition.json'));
         } else {
-            siteDefinition = generator.siteDefinition = require('sharepoint-util/templates/SiteDefinition');
+            siteDefinition = generator.siteDefinition = require('@sysdoc/sp-provisioning-util/templates/SiteDefinition');
         }
     }
     

@@ -1,4 +1,4 @@
-const { FeaturesList} = require('sharepoint-util/lib/sharepoint/builtin'); 
+const { FeaturesList} = require('@sysdoc/sp-provisioning-util/lib/sharepoint/builtin'); 
 module.exports = function configureFeatures(generator,siteDefinition){
     const prompts = [{
         type:'list',

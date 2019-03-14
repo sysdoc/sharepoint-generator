@@ -14,7 +14,7 @@ module.exports = function configureFontPalette(generator,config,siteDefinition){
             generator.templatePath(
                 path.resolve(
                     __dirname,
-                    '../../node_modules/sharepoint-util/templates/default.spfont'
+                    '../../node_modules/@sysdoc/sp-provisioning-util/templates/default.spfont'
                 )
             ),
             generator.destinationPath(

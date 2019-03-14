@@ -64,7 +64,7 @@ module.exports = class extends Generator {
     });
     // Have Yeoman greet the user.
     this.log(
-      yosay('Welcome to the super-duper ' + chalk.red('generator-sharepoint-util') + ' generator!')
+      yosay('Welcome to the super-duper ' + chalk.red('generator-@sysdoc/sp-provisioning-util') + ' generator!')
     );
     return initial(this, this._cfg);
   }
@@ -75,7 +75,7 @@ module.exports = class extends Generator {
         this.templatePath(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/gulpfile.js'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/gulpfile.js'
           )
         ),
         this.destinationPath('gulpfile.js')
@@ -86,7 +86,7 @@ module.exports = class extends Generator {
         this.templatePath(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/CodeConventions.md'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/CodeConventions.md'
           )
         ),
         this.destinationPath('CodeConventions.md')
@@ -97,7 +97,7 @@ module.exports = class extends Generator {
         this.templatePath(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/webpack.config.js'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/webpack.config.js'
           )
         ),
         this.destinationPath('webpack.config.js')
@@ -108,7 +108,7 @@ module.exports = class extends Generator {
         this.templatePath(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/tsconfig.json'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/tsconfig.json'
           )
         ),
         this.destinationPath('tsconfig.json')
@@ -119,7 +119,7 @@ module.exports = class extends Generator {
         this.templatePath(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/README.md.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/README.md.ejs'
           )
         ),
         this.destinationPath('README.md'),
@@ -182,7 +182,7 @@ module.exports = class extends Generator {
         this.templatePath(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/baseprototype.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/baseprototype.ejs'
           )
         ),
         path.resolve(
@@ -227,7 +227,7 @@ module.exports = class extends Generator {
     if (!fs.existsSync(path.resolve(this.destinationPath(), this._cfg.sassDir))) {
       this.fs.copy(
         this.templatePath(
-          path.resolve(__dirname, '../../node_modules/sharepoint-util/sass/partials')
+          path.resolve(__dirname, '../../node_modules/@sysdoc/sp-provisioning-util/sass/partials')
         ),
         this.destinationPath(this._cfg.sassDir)
       );
@@ -239,7 +239,7 @@ module.exports = class extends Generator {
     ) {
       this.fs.copyTpl(
         this.templatePath(
-          path.resolve(__dirname, '../../node_modules/sharepoint-util/sass/main.min.scss')
+          path.resolve(__dirname, '../../node_modules/@sysdoc/sp-provisioning-util/sass/main.min.scss')
         ),
         this.destinationPath(path.resolve(this._cfg.sassDir, 'main.min.scss')),
         {
@@ -256,7 +256,7 @@ module.exports = class extends Generator {
         this.templatePath(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/sass/_settings.scss'
+            '../../node_modules/@sysdoc/sp-provisioning-util/sass/_settings.scss'
           )
         ),
         this.destinationPath(path.resolve(this._cfg.sassDir, '_settings.scss')),
@@ -272,7 +272,7 @@ module.exports = class extends Generator {
     ) {
       this.fs.copyTpl(
         this.templatePath(
-          path.resolve(__dirname, '../../node_modules/sharepoint-util/sass/_siteurl.scss')
+          path.resolve(__dirname, '../../node_modules/@sysdoc/sp-provisioning-util/sass/_siteurl.scss')
         ),
         this.destinationPath(path.resolve(this._cfg.sassDir, '_siteurl.scss')),
         {
@@ -289,7 +289,7 @@ module.exports = class extends Generator {
         this.templatePath(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/bootstrapinclude.scss.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/bootstrapinclude.scss.ejs'
           )
         ),
         this.destinationPath(path.resolve(this._cfg.sassDir, '_bootstrapinclude.scss')),

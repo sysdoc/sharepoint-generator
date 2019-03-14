@@ -137,9 +137,9 @@ module.exports = function addMasterPage(generator, siteDefinition, config, mp) {
             if (!isEdit) {
                 siteDefinition.masterPageDefinitions = siteDefinition.masterPageDefinitions || [];
                 siteDefinition.masterPageDefinitions.push(masterPage);
-                generator.fs.copy(path.resolve(__dirname, `../../node_modules/sharepoint-util/templates/masterpagemacros.${config.sharePointVersion || 'online'}.njk`),
+                generator.fs.copy(path.resolve(__dirname, `../../node_modules/@sysdoc/sp-provisioning-util/templates/masterpagemacros.${config.sharePointVersion || 'online'}.njk`),
                     generator.destinationPath(config.templatesDir, `masterpagemacros.${config.sharePointVersion || 'online'}.njk`), {});
-                generator.fs.copy(path.resolve(__dirname, `../../node_modules/sharepoint-util/templates/masterpage.${config.sharePointVersion || 'online'}.njk`),
+                generator.fs.copy(path.resolve(__dirname, `../../node_modules/@sysdoc/sp-provisioning-util/templates/masterpage.${config.sharePointVersion || 'online'}.njk`),
                     generator.destinationPath(config.masterPageTemplatesDir, masterPage.template), {});
             }
         })

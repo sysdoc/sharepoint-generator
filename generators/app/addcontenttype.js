@@ -1,5 +1,5 @@
 const generateId = require('./generateid'); 
-const { BuiltInContentTypeList } = require('sharepoint-util/lib/sharepoint/builtin');
+const { BuiltInContentTypeList } = require('@sysdoc/sp-provisioning-util/lib/sharepoint/builtin');
 module.exports = function addContentType(generator,siteDefinition,c){
     var isEdit = c ? true : false;
     var contentType = c || {};

@@ -1,6 +1,6 @@
 const fs = require('fs'); 
 const path = require('path'); 
-const { BuiltInContentTypeList } = require('sharepoint-util/lib/sharepoint/builtin');
+const { BuiltInContentTypeList } = require('@sysdoc/sp-provisioning-util/lib/sharepoint/builtin');
 module.exports = function addPageLayout(generator, siteDefinition, config, pl) {
     const isEdit = pl ? true : false;
     let pageLayout = pl || {
@@ -160,9 +160,9 @@ module.exports = function addPageLayout(generator, siteDefinition, config, pl) {
             if (!isEdit) {
                 siteDefinition.pageLayoutDefinitions = siteDefinition.pageLayoutDefinitions || [];
                 siteDefinition.pageLayoutDefinitions.push(pageLayout);
-                generator.fs.copy(path.resolve(__dirname, `../../node_modules/sharepoint-util/templates/pagelayoutmacros.${config.sharePointVersion || 'online'}.njk`),
+                generator.fs.copy(path.resolve(__dirname, `../../node_modules/@sysdoc/sp-provisioning-util/templates/pagelayoutmacros.${config.sharePointVersion || 'online'}.njk`),
                     generator.destinationPath(config.templatesDir, `pagelayoutmacros.${config.sharePointVersion || 'online'}.njk`), {});
-                generator.fs.copy(path.resolve(__dirname, `../../node_modules/sharepoint-util/templates/DefaultLayout.${config.sharePointVersion || 'online'}.njk`),
+                generator.fs.copy(path.resolve(__dirname, `../../node_modules/@sysdoc/sp-provisioning-util/templates/DefaultLayout.${config.sharePointVersion || 'online'}.njk`),
                     generator.destinationPath(config.pageLayoutTemplatesDir, pageLayout.template), {});
             }
         })

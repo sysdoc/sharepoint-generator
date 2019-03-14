@@ -1,4 +1,4 @@
-const { createTransformer } = require('sharepoint-util/lib/provisioning/provisioning');
+const { createTransformer } = require('@sysdoc/sp-provisioning-util/lib/provisioning/provisioning');
 module.exports = function(generator,siteDefinition,config){
     var cfg = Object.assign({},config); 
     const prompts = [{

@@ -216,7 +216,7 @@ module.exports = function addPrototype(generator, config, p, isNew) {
       generator.fs.copyTpl(
         path.resolve(
           __dirname,
-          '../../node_modules/sharepoint-util/templates/prototype.ejs'
+          '../../node_modules/@sysdoc/sp-provisioning-util/templates/prototype.ejs'
         ),
         path.resolve(
           generator.destinationPath(config.prototypeTemplatesDir),
@@ -248,7 +248,7 @@ module.exports = function addPrototype(generator, config, p, isNew) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/controllerprototype.njk.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/controllerprototype.njk.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -263,7 +263,7 @@ module.exports = function addPrototype(generator, config, p, isNew) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/mobxcontrollerprototype.njk.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/mobxcontrollerprototype.njk.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -278,7 +278,7 @@ module.exports = function addPrototype(generator, config, p, isNew) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/componentprototype.njk.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/componentprototype.njk.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),

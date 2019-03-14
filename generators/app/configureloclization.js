@@ -1,4 +1,4 @@
-const {LocaleList,LanguagesWithStringLcids} = require('sharepoint-util/lib/sharepoint/builtin');
+const {LocaleList,LanguagesWithStringLcids} = require('@sysdoc/sp-provisioning-util/lib/sharepoint/builtin');
 const fs = require('fs'); 
 const _ = require('lodash');
 function addLocalization(generator,siteDefinition,l){

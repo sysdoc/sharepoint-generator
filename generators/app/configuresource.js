@@ -85,7 +85,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/mobxcomponent.ts.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/mobxcomponent.ts.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -102,7 +102,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/component.scss.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/component.scss.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.sassDir),
@@ -141,7 +141,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/component.ts.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/component.ts.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -157,7 +157,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/component.scss.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/component.scss.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.sassDir),
@@ -196,7 +196,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/mobxcontroller.ts.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/mobxcontroller.ts.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -214,7 +214,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/component.scss.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/component.scss.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.sassDir),
@@ -260,7 +260,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/mobxstore.ts.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/mobxstore.ts.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -278,7 +278,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/mobxstateandprops.ts.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/mobxstateandprops.ts.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -308,7 +308,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/controller.ts.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/controller.ts.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -326,7 +326,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/component.scss.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/component.scss.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.sassDir),
@@ -372,7 +372,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/actions.ts.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/actions.ts.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -390,7 +390,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/stateandprops.ts.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/stateandprops.ts.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -408,7 +408,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/reducer.ts.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/reducer.ts.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),
@@ -438,7 +438,7 @@ module.exports = function configureSource(generator, config) {
         generator.fs.copyTpl(
           path.resolve(
             __dirname,
-            '../../node_modules/sharepoint-util/templates/service.ts.ejs'
+            '../../node_modules/@sysdoc/sp-provisioning-util/templates/service.ts.ejs'
           ),
           path.resolve(
             generator.destinationPath(config.srcDir),

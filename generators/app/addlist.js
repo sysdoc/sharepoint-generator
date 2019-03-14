@@ -3,10 +3,10 @@ const validateGuid = require('./validateguid');
 const { CustomActionLocationList, StandardMenuGroupList,
     ContentTypeSettingsGroupList, GroupsPageList, SiteSettingsGroupList,
     ListEditGroupList, DocumentLibraryGroupList,PeoplePageGroupList,
-    CreateGroupList} = require('sharepoint-util/lib/provisioning/usercustomaction');
+    CreateGroupList} = require('@sysdoc/sp-provisioning-util/lib/provisioning/usercustomaction');
 const {TemplateTypesList,ListTemplateType,
     ListTemplateTypeByValue,
-    BuiltInContentTypeList,  } = require('sharepoint-util/lib/sharepoint/builtin'); 
+    BuiltInContentTypeList,  } = require('@sysdoc/sp-provisioning-util/lib/sharepoint/builtin'); 
 function addCustomAction(generator,siteDefinition,list,act){
     let isEdit = act?true:false; 
     let action = act || {}; 

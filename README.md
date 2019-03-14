@@ -28,9 +28,9 @@ yo generator-sharepoint-app
 MIT © [Suhail Abood]()
 
 
-[npm-image]: https://badge.fury.io/js/generator-sharepoint-app.svg
-[npm-url]: https://npmjs.org/package/generator-sharepoint-app
-[travis-image]: https://travis-ci.org/suhdev/generator-sharepoint-app.svg?branch=master
-[travis-url]: https://travis-ci.org/suhdev/generator-sharepoint-app
-[daviddm-image]: https://david-dm.org/suhdev/generator-sharepoint-app.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/suhdev/generator-sharepoint-app
+[npm-image]: https://badge.fury.io/js/sysdoc/generator-sharepoint-app.svg
+[npm-url]: https://npmjs.org/package/sysdoc/generator-sharepoint-app
+[travis-image]: https://travis-ci.org/sysdoc/generator-sharepoint-app.svg?branch=master
+[travis-url]: https://travis-ci.org/sysdoc/generator-sharepoint-app
+[daviddm-image]: https://david-dm.org/sysdoc/generator-sharepoint-app.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/sysdoc/generator-sharepoint-app

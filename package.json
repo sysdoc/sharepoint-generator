@@ -1,6 +1,6 @@
 {
   "name": "@sysdoc/generator-sharepoint-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A yeoman generator for SharePoint projects",
   "homepage": "https://github.com/suhdev/sharepoint-yo-generator#readme",
   "author": "Suhail Abood <suhail.abood@gmail.com>",
@@ -44,9 +44,7 @@
     "testEnvironment": "node"
   },
   "scripts": {
-    "prepublish": "nsp check",
     "pretest": "eslint .",
-    "precommit": "lint-staged",
     "test": "jest"
   },
   "lint-staged": {

@@ -7,13 +7,13 @@ First, install [Yeoman](http://yeoman.io) and generator-sharepoint-app using [np
 
 ```bash
 npm install -g yo
-npm install -g generator-sharepoint-app
+npm install -g @sysdoc/generator-sharepoint-app
 ```
 
 Then generate your new project:
 
 ```bash
-yo sharepoint-app
+yo generator-sharepoint-app
 ```
 
 ## Getting To Know Yeoman
